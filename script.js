@@ -3,8 +3,8 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 // ====== CONFIGURAÇÃO DO SUPABASE ======
 // Project Settings > API: copie a "Project URL" e a chave "anon public".
 // A chave anon foi feita para uso no frontend (a segurança vem das políticas RLS).
-const SUPABASE_URL = "https://supabase.com/dashboard/project/nnkvqjyedlfzgywahgfy/settings/api-keys";
-const SUPABASE_ANON_KEY = "https://nnkvqjyedlfzgywahgfy.supabase.co";
+const SUPABASE_URL = "https://nnkvqjyedlfzgywahgfy.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_qllgonLnIH3baioY-S_BVQ_vQjh8UfA";
 // =======================================
 
 const MAX_TIME = 6;
