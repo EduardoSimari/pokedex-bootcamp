@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex Bootcamp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pokédex</h1>
+    <p>Busque um Pokémon e monte o seu time de até 6.</p>
+  </header>
+
+  <main>
+    <div id="aviso-config" class="aviso" hidden>
+      Configure a URL e a chave anon do Supabase no topo do <code>script.js</code> para salvar o time.
+    </div>
+
+    <section class="busca">
+      <input id="campo-busca" type="text" placeholder="Nome ou número (ex: pikachu, 25)" autocomplete="off">
+      <button id="botao-buscar">Buscar</button>
+    </section>
+
+    <section id="resultado" aria-live="polite"></section>
+
+    <section class="time">
+      <h2>Meu time <span id="contador-time"></span></h2>
+      <div id="lista-time" class="grid-time"></div>
+    </section>
+  </main>
+
+  <footer>Bootcamp II · Etapa 02 · Pokédex com PokeAPI + Supabase + Docker</footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
