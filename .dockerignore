@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+GUIA.md
+supabase.sql
+*.png
+*.jpg
+node_modules
+.DS_Store
+.vscode
